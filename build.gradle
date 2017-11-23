@@ -47,7 +47,6 @@ repositories {
 dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-security'
-    compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.7.0'
     compile group: 'io.springfox', name: 'springfox-swagger2', version: swaggerVersion
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: swaggerVersion
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
